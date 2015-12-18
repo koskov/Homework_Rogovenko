@@ -1,7 +1,5 @@
 <?php
-	/**
-	* 
-	*/
+
 	class CCar
 	{
 		
@@ -98,7 +96,7 @@
 
 		public function setSpeedType($speedType)
 		{
-			$this->speedType = $speedType; // sets km/h (1) or m/s (3600)
+			$this->speedType = $speedType; // sets km/h or m/s 
 		}
 
 		public function setCarSpeed($rideTime, $rideDistance, $speedType, $carSpeed)
