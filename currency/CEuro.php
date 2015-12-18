@@ -5,14 +5,13 @@
 	class CEuro extends CCurrency
 	{
 		
-		private $rate;
-		private $buyRate;
+		private $rate = 26;
+		private $buyRate = 27;
 
-		public function __construct($name, $rate = 26, $buyRate = 27)
+		public function __construct($name)
 		{
 			parent::__construct($name);
-			$this->rate = $rate;
-			$this->buyRate = $buyRate;
+
 		}
 
 		public function getRate()

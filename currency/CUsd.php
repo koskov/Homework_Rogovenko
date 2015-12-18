@@ -5,14 +5,13 @@
 	class CUsd extends CCurrency
 	{
 		
-		private $rate;
-		private $buyRate;
+		private $rate = 23.2;
+		private $buyRate = 25;
 
-		public function __construct($name, $rate = 23.2, $buyRate = 25)
+		public function __construct($name)
 		{
 			parent::__construct($name);
-			$this->rate = $rate;
-			$this->buyRate = $buyRate;
+			
 		}
 
 		public function getRate()
