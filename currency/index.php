@@ -1,5 +1,5 @@
 <?php 
-	require_once 'CCurrency.php';
+	
 	require_once 'CUsd.php';
 	require_once 'CEuro.php';
 
